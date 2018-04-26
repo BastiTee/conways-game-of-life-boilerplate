@@ -2,7 +2,6 @@
 > A boilerplate to implement Conway's »Game of Life« using test-driven Java.
 
 # Introduction
-> Following rules taken from [Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 
 The *Game of Life* is a cellular automaton devised by the British mathematician John Horton Conway in 1970.
 
@@ -39,3 +38,10 @@ Also included is a `project.iml` to startup for coding with [Intellij IDEA](http
 - Run all tests: `mvn test` or `mvn test -q` for test output only
 - Build jar-artifact: `mvn install`
 - Run main application: `mvn exec:java` or `mvn exec:java -q` for application output only
+
+## License
+
+This project is licensed under [Apache License 2.0](LICENSE).
+
+Rules taken from [Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) licensed under [CC BY-SA](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License).
+
