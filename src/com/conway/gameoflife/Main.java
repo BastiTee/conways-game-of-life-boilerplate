@@ -1,4 +1,4 @@
-package com.company.project;
+package com.conway.gameoflife;
 
 public class Main {
 
