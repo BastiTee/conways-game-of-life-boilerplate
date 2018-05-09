@@ -1,6 +1,8 @@
 # Conway's Game of Life
 > A boilerplate to implement Conway's »Game of Life« using test-driven Java.
 
+![GameOfLife](https://upload.wikimedia.org/wikipedia/commons/1/12/Game_of_life_toad.gif)
+
 # Introduction
 
 The *Game of Life* is a cellular automaton devised by the British mathematician John Horton Conway in 1970.
