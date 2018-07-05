@@ -1,7 +1,6 @@
-package com.conway.gameoflife;
+package com.acme.jvm;
 
-public class Main {
-
+public class MainJava {
     public static void main(String[] args) {
         System.err.println("Hello world.");
     }
