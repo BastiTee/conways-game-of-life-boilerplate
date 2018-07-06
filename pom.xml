@@ -21,7 +21,7 @@
         https://kotlinlang.org/docs/reference/using-maven.html
         -->
         <kotlin.version>1.2.51</kotlin.version>
-        <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
+        <kotlin.compiler.incremental>false</kotlin.compiler.incremental>
     </properties>
 
     <dependencies>
