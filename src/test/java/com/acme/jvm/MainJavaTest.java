@@ -1,23 +1,19 @@
-package com.conway.gameoflife;
-
+package com.acme.jvm;
 
 import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * Test suite for the {@link Main} component.
+ * Test suite for the {@link MainJava} component.
  */
-public class MainTest {
+public class MainJavaTest {
 
     /**
      * A sample test to validate the overall setup.
      */
     @Test
     public void testObjectCreation() {
-
-        Main main = new Main();
-        Assert.assertNotNull(main);
-
+        MainJava mj = new MainJava();
+        Assert.assertNotNull(mj);
     }
-
 }
