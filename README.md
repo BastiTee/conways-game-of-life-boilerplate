@@ -1,12 +1,14 @@
 # JVM Boilerplate
-> An IntelliJ boilerplate for test-driven development on the JVM
+> A boilerplate for test-driven development on the JVM using IntelliJ
 
 ## Project overview
 
 The boilerplate is designed for job interviews, code retreats or for in-house practise. Required for the project
 is a [Java Development Kit](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) version 8 or later and [Maven](https://maven.apache.org/) both available on the command line.
 
-Also included is a `project.iml` to startup for coding with [Intellij IDEA](https://www.jetbrains.com/idea/).
+Current language support includes Java 8 and Kotlin.
+
+Also included is a `jvm.iml` to startup for coding with [Intellij IDEA](https://www.jetbrains.com/idea/).
 
 ### Maven targets
 
