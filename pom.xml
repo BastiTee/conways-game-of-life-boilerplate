@@ -9,7 +9,7 @@
     <version>0.1.0</version>
 
     <name>JVM boilerplate</name>
-    <description>An IntelliJ boilerplate for test-driven development on the JVM</description>
+    <description>A boilerplate for test-driven development on the JVM using IntelliJ</description>
 
     <url>https://github.com/BastiTee/jvm-boilerplate</url>
 
@@ -20,7 +20,7 @@
         <!--
         https://kotlinlang.org/docs/reference/using-maven.html
         -->
-        <kotlin.version>1.2.50</kotlin.version>
+        <kotlin.version>1.2.51</kotlin.version>
         <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
     </properties>
 
@@ -115,17 +115,6 @@
                             <mainClass>${java.class}</mainClass>
                         </manifest>
                     </archive>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>exec-maven-plugin</artifactId>
-                <version>1.2.1</version>
-                <configuration>
-                    <mainClass>${java.class}</mainClass>
-                    <!--<arguments>-->
-                        <!--<argument>argument1</argument>-->
-                    <!--</arguments>-->
                 </configuration>
             </plugin>
         </plugins>

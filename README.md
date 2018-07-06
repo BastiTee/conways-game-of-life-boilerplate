@@ -14,7 +14,6 @@ Also included is a `jvm.iml` to startup for coding with [Intellij IDEA](https://
 
 - Run all tests: `mvn test` or `mvn test -q` for test output only
 - Build jar-artifact: `mvn install`
-- Run java application: `mvn exec:java` or `mvn exec:java -q` for application output only
 
 ## License
 
