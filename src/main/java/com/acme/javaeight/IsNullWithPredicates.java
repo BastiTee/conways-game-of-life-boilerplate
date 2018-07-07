@@ -1,4 +1,4 @@
-package cloud.bastis.javaeight;
+package com.acme.javaeight;
 
 import java.util.ArrayList;
 import java.util.List;

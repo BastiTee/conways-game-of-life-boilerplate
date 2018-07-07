@@ -1,4 +1,4 @@
-package cloud.bastis.javaeight;
+package com.acme.javaeight;
 
 import java.util.List;
 import java.util.Random;
@@ -13,9 +13,9 @@ public class FunctionReferenceByHand {
     public static void main(String[] args) {
         // generate list of random strings
         List<String> strings = new Random()
-                .ints(10)
-                .mapToObj(Integer::toString)
-                .collect(Collectors.toList());
+            .ints(10)
+            .mapToObj(Integer::toString)
+            .collect(Collectors.toList());
 
         // call own method by reference on each element
         strings.forEach(FunctionReferenceByHand::squared);

@@ -1,4 +1,4 @@
-package cloud.bastis.javaeight;
+package com.acme.javaeight;
 
 import org.junit.Assert;
 import org.junit.Test;

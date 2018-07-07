@@ -1,7 +1,5 @@
-package cloud.bastis.guice.logmod;
+package com.acme.guice.logmod;
 
-import cloud.bastis.guice.logmod.FileLogger;
-import cloud.bastis.guice.logmod.Logger;
 import com.google.inject.AbstractModule;
 import com.google.inject.Singleton;
 

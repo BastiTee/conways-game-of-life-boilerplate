@@ -1,4 +1,4 @@
-package cloud.bastis.javaeight;
+package com.acme.javaeight;
 
 import java.util.Arrays;
 import java.util.List;
@@ -12,18 +12,18 @@ public class TestListForExistence {
 
         // check for existence
         System.err.println(
-                names.stream()
-                        .anyMatch((e) -> e.equalsIgnoreCase("stepan"))); // true
+            names.stream()
+                .anyMatch((e) -> e.equalsIgnoreCase("stepan"))); // true
 
         // check for some condition in the values itself
         System.err.println(
-                names.stream()
-                        .anyMatch((e) -> e.contains("ö"))); // true
+            names.stream()
+                .anyMatch((e) -> e.contains("ö"))); // true
 
         // check all values
         System.err.println(
-                names.stream()
-                        .noneMatch(String::isEmpty)); // true
+            names.stream()
+                .noneMatch(String::isEmpty)); // true
     }
 
 }

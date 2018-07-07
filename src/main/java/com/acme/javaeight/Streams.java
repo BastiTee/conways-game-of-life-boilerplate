@@ -1,4 +1,4 @@
-package cloud.bastis.javaeight;
+package com.acme.javaeight;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -12,13 +12,13 @@ public class Streams {
 
         //sequential stream
         myList
-                .stream()
-                .forEach(p -> System.out.println("High Nums sequential=" + p));
+            .stream()  // not necessary here. only for comparison
+            .forEach(p -> System.out.println("High Nums sequential=" + p));
 
         //parallel stream
         myList
-                .parallelStream()
-                .forEach(p -> System.out.println("High Nums parallel=" + p));
+            .parallelStream()
+            .forEach(p -> System.out.println("High Nums parallel=" + p));
 
     }
 }

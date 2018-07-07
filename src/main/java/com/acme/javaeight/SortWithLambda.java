@@ -1,4 +1,4 @@
-package cloud.bastis.javaeight;
+package com.acme.javaeight;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -6,6 +6,7 @@ import java.util.Comparator;
 import java.util.List;
 
 public class SortWithLambda {
+
     public static void main(String[] args) {
 
         List<String> names = Arrays.asList("peter", "anna", "mike", "xenia");
