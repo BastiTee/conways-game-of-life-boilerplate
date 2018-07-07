@@ -1,7 +1,7 @@
-package cloud.bastis.guice;
+package com.acme.guice;
 
-import cloud.bastis.guice.logmod.ConsoleLogger;
-import cloud.bastis.guice.logmod.Logger;
+import com.acme.guice.logmod.ConsoleLogger;
+import com.acme.guice.logmod.Logger;
 import com.google.inject.AbstractModule;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
@@ -18,6 +18,6 @@ public class LoggingModuleTest {
             }
         });
         Logger lm = injector.getInstance(Logger.class);
-        lm.log("poop");
+        lm.log("hello world");
     }
 }

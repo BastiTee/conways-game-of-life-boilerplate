@@ -1,9 +1,8 @@
-package cloud.bastis.javaeight;
+package com.acme.javaeight;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Consumer;
-import java.lang.Integer;
 
 public class ForEachWithConsumer {
 

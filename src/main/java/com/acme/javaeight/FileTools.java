@@ -1,4 +1,4 @@
-package cloud.bastis.javaeight;
+package com.acme.javaeight;
 
 import java.io.IOException;
 import java.nio.file.FileSystems;
@@ -13,8 +13,8 @@ public class FileTools {
 
         // Print all lines from a file that contains target
         Files.lines(FileSystems.getDefault().getPath("build.xml"))
-                .filter((l) -> l.contains("target"))
-                .forEach(System.out::println);
+            .filter((l) -> l.contains("target"))
+            .forEach(System.out::println);
 
     }
 }

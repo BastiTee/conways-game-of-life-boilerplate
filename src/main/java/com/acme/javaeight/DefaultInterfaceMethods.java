@@ -1,4 +1,4 @@
-package cloud.bastis.javaeight;
+package com.acme.javaeight;
 
 interface Interface1 {
 

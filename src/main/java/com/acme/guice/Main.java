@@ -1,7 +1,7 @@
-package cloud.bastis.guice;
+package com.acme.guice;
 
-import cloud.bastis.guice.logmod.Logger;
-import cloud.bastis.guice.logmod.LoggingModule;
+import com.acme.guice.logmod.Logger;
+import com.acme.guice.logmod.LoggingModule;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 

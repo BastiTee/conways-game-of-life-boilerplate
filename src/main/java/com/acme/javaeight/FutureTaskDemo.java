@@ -1,4 +1,4 @@
-package cloud.bastis.javaeight;
+package com.acme.javaeight;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -46,7 +46,8 @@ public class FutureTaskDemo {
      * @throws ExecutionException   Thrown eventually
      */
     private static int amountOfDivisibleByFuture(final int first, final int last, final int divisor)
-            throws InterruptedException, ExecutionException {
+        throws InterruptedException, ExecutionException
+    {
 
         int threadNum = 8;
 
@@ -55,7 +56,7 @@ public class FutureTaskDemo {
 
         IntStream.range(0, threadNum).forEach((i) -> {
             FutureTask<Integer> futureTask_1 = new FutureTask<>(
-                    () -> FutureTaskDemo.amountOfDivisibleBy(first, last / threadNum, divisor)
+                () -> FutureTaskDemo.amountOfDivisibleBy(first, last / threadNum, divisor)
             );
             taskList.add(futureTask_1);
             executor.execute(futureTask_1);

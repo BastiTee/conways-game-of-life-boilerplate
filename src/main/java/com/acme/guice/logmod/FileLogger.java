@@ -1,4 +1,4 @@
-package cloud.bastis.guice.logmod;
+package com.acme.guice.logmod;
 
 import java.io.IOException;
 import java.nio.file.Files;

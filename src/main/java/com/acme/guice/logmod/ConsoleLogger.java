@@ -1,4 +1,4 @@
-package cloud.bastis.guice.logmod;
+package com.acme.guice.logmod;
 
 public class ConsoleLogger implements Logger {
 
