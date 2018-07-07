@@ -9,7 +9,7 @@
     <version>0.1.0</version>
 
     <name>JVM boilerplate</name>
-    <description>A boilerplate for test-driven development on the JVM using IntelliJ</description>
+    <description>A boilerplate for test-driven development on the JVM</description>
 
     <url>https://github.com/BastiTee/jvm-boilerplate</url>
 
