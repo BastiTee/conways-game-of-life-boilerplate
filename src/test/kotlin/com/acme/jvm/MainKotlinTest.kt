@@ -2,6 +2,7 @@ package com.acme.jvm
 
 import org.junit.Assert
 import org.junit.Test
+import kotlin.test.assertNotNull
 
 /**
  * Test suite for the {@link MainKotlin} component.
@@ -14,6 +15,7 @@ class MainKotlinTest() {
     @Test
     fun testObjectCreation() {
         val mk = MainKotlin()
-        Assert.assertNotNull(mk)
+        Assert.assertNotNull(mk) // JUnit assertion
+        assertNotNull(mk) // Kotlin assertion
     }
 }
